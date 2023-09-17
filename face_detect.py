@@ -2,12 +2,7 @@
 
 import streamlit as st
 import cv2
-
-st.title("Streamlit + OpenCV Face_detect")
-
-st.title("Streamlit + OpenCV Face_congnishin")
-
-
+st.title("Streamlit + OpenCV Face_detection")
 # 学習済みモデルの読み込み
 cascade = cv2.CascadeClassifier("./haarcascades/haarcascade_frontalface_default.xml")
 # カメラ映像からVideoCaptureオブジェクトを取得

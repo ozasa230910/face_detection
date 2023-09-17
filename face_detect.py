@@ -1,9 +1,9 @@
 # 出典URL：https://office54.net/python/opencv/movie-face-authentication
 
-import streamlit as st
+#import streamlit as st
 import cv2
 
-st.title("Streamlit + OpenCV Face_detection")
+#st.title("Streamlit + OpenCV Face_detection")
 
 # 学習済みモデルの読み込み
 cascade = cv2.CascadeClassifier("./haarcascades/haarcascade_frontalface_default.xml")
